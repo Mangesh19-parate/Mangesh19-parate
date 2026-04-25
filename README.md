@@ -6,11 +6,11 @@
 
 ## My Github Stats
 
-![Github stats3]()
+![Github stats3](https://github-readme-stats.vercel.app/api?username=Mangesh19-parate)
 
-![Github Stats]()
+![Github Stats](https://github-readme-streak-stats.herokuapp.com/?user=Mangesh19-parate)
 
-![Github Stat2]
+![Github Stat2](https://github-readme-stats.vercel.app/api/top-langs/?username=Mangesh19-parate)
 
 
 <!--
