@@ -1,4 +1,6 @@
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=800&color=2D9CDB&width=650&lines=Hey%2C+I'm+Mangesh+Parate+%F0%9F%91%8B;ML+Engineer+%7C+AI+Builder;Building+LLMs+that+run+without+internet;Offline+AI+for+Rural+India+%F0%9F%87%AE%F0%9F%87%B3;Open+to+DS+%2F+ML+Internships+%F0%9F%9A%80)
+![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=200&section=header&text=Mangesh%20Parate&fontSize=50&fontColor=fff&animation=twinkling&fontAlignY=35&desc=ML%20Engineer%20%7C%20Offline%20AI%20for%20Rural%20India&descAlignY=55&descSize=18)
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=800&color=2D9CDB&center=true&vCenter=true&width=650&lines=ML+Engineer+%7C+Data+Scientist;Built+offline+AI+for+250M%2B+rural+students;Python+%7C+LLMs+%7C+Streamlit+%7C+SQL;Open+to+DS+%2F+ML+Internships+%F0%9F%9A%80)](https://git.io/typing-svg)
 
 **B.Tech IT · Graduating 2027 · 8.49 CGPA · Nagpur, India**
 
@@ -67,9 +69,24 @@ Geospatial visualisation of Indian census data — choropleth maps across states
 | 3 | MLflow experiment tracking on existing projects | Add proper model versioning and drift monitoring | 📚 Learning |
 | 4 | Docker containerisation of all projects | Every project should run with `docker compose up` | 📚 Learning |
 
+[![PathShala](https://github-readme-stats.vercel.app/api/pin/?username=Mangesh19-parate&repo=shikshaAI-hackathon-project&theme=tokyonight&hide_border=true)](https://github.com/Mangesh19-parate/shikshaAI-hackathon-project)
+
+[![Startup Dashboard](https://github-readme-stats.vercel.app/api/pin/?username=Mangesh19-parate&repo=streamlit-dash&theme=tokyonight&hide_border=true)](https://github.com/Mangesh19-parate/streamlit-dash)
+<div align="center">
+  <a href="https://github.com/Mangesh19-parate/shikshaAI-hackathon-project">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Mangesh19-parate&repo=shikshaAI-hackathon-project&theme=tokyonight&hide_border=true" />
+  </a>
+  <a href="https://github.com/Mangesh19-parate/streamlit-dash">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Mangesh19-parate&repo=streamlit-dash&theme=tokyonight&hide_border=true" />
+  </a>
+</div>
+
 ---
 
 ## 🛠 Skills — only what I have repos to prove
+
+[![My Skills](https://skillicons.dev/icons?i=python,fastapi,docker,git,github,sqlite,linux&theme=dark)](https://skillicons.dev)
+[![ML Stack](https://skillicons.dev/icons?i=tensorflow,sklearn,pytorch&theme=dark)](https://skillicons.dev)
 
 **Languages**  
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
@@ -107,6 +124,43 @@ Geospatial visualisation of Indian census data — choropleth maps across states
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Mangesh19-parate&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
 
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Mangesh19-parate&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Mangesh19-parate&layout=compact&langs_count=6&theme=tokyonight&hide_border=true"/>
+</div>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Mangesh19-parate&theme=tokyonight&hide_border=true" />
+</div>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Mangesh19-parate/Mangesh19-parate/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Mangesh19-parate/Mangesh19-parate/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Mangesh19-parate/Mangesh19-parate/output/github-contribution-grid-snake.svg">
+  </picture>
+</div>
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Mangesh19-parate&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1" />
+</div>
+
+![Profile Views](https://komarev.com/ghpvc/?username=Mangesh19-parate&color=2D9CDB&style=flat&label=Profile+Views)
+
+---
+
+## 📊 Stats
+
+<div align="center">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Mangesh19-parate&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Mangesh19-parate&layout=compact&langs_count=6&theme=tokyonight&hide_border=true)
+
+![Streak](https://github-readme-streak-stats.herokuapp.com/?user=Mangesh19-parate&theme=tokyonight&hide_border=true)
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Mangesh19-parate&theme=tokyo-night&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+</div>
 ---
 
 ## 🤝 Let's build something together
@@ -121,3 +175,5 @@ If you're building something interesting or want to collaborate on an open-sourc
 ---
 
 > *"The best way to get hired is to already be doing the work."*
+>
+> ![footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer)
