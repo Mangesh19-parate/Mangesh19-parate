@@ -2,11 +2,11 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=800&color=2D9CDB&center=true&vCenter=true&width=680&lines=ML+Engineer+%7C+Data+Scientist;Built+offline+AI+for+250M%2B+rural+students;Python+%7C+LLMs+%7C+FastAPI+%7C+MLflow;Open+to+DS+%2F+ML+Internships+%F0%9F%9A%80)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=800&color=2D9CDB&center=true&vCenter=true&width=680&lines=ML+Engineer+%7C+Data+Scientist;Rule-based+AutoML+%7C+Real-Estate+ML+%7C+VC+Analytics;Python+%7C+FastAPI+%7C+scikit-learn+%7C+XGBoost+%7C+SHAP;Open+to+DS+%2F+ML+Internships+%F0%9F%9A%80)](https://git.io/typing-svg)
 
 **B.Tech IT · Graduating 2027 · 8.49 CGPA · Nagpur, India**
 
-I don't just train models — I ship them. Every project below has a live URL.
+I design the full pipeline: problem statement, data, modeling, and deployment.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mangesh-parate-43310827b/)
 [![Email](https://img.shields.io/badge/Email-paratemangesh19%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:paratemangesh19@gmail.com)
@@ -17,44 +17,65 @@ I don't just train models — I ship them. Every project below has a live URL.
 
 ---
 
-## What I've shipped
+## What I'm building
 
-### PathShala Offline — LLM Tutor for Rural India
+### Intelligent ML Studio — Rule-Based, Explainable AutoML Platform
 
-> *Priya is a 10th-grade student near Nashik. She studies by oil lamp. No internet. Exam in 2 weeks.
-> PathShala puts a patient, multilingual AI tutor on her laptop — forever.*
+> *Most AutoML tools optimize a black box and hand you a number. Intelligent ML Studio explains **why**: every metric choice, algorithm shortlist, and leakage flag traces back to a rule you can inspect.*
 
-**The problem:** 250M+ rural Indian students can't access quality education due to unreliable internet.  
-**My solution:** An offline-first AI tutor powered by Gemma 3n via Ollama — downloads once, runs forever.
+**The problem:** Beginners and experienced practitioners alike make avoidable ML mistakes: undetected data leakage, ignored class imbalance, misleading accuracy metrics, inconsistent train/inference preprocessing. Existing AutoML tools (Colab, Dataiku, H2O, Vertex AI) automate *execution*, not *guidance*.
+
+**My solution:** A full-stack platform that walks a user through upload → diagnostics → recommendation → training → explainability → deployment, powered by a transparent, inspectable Recommendation Engine (not a learned "AI suggests" black box).
 
 ```
 What it does
-├── Answers questions in English, Hindi, and Marathi
-├── Socratic teaching method — guides, doesn't just answer
-├── Voice input (Whisper.cpp) + Voice output (pyttsx3) — fully hands-free
-├── Lesson history saved locally via SQLite
-└── Works 100% on CPU · No GPU · No cloud · No internet after setup
+├── Diagnostics Engine — flags statistical leakage, class imbalance, missing values
+├── Recommendation Engine — ~60–100 versioned YAML rules with a full traceable decision path
+├── Preprocessing Pipeline Generator — guarantees identical train/inference transforms
+├── Multi-algorithm training — scikit-learn, XGBoost, LightGBM + Optuna tuning
+├── SHAP-based explainability with per-model-type explainer selection
+├── Experiment tracking with dataset-level hashing + model versioning
+└── One-click deployment of the best model as a REST API
 ```
 
-| Metric | Value |
-|--------|-------|
-| One-time model download | ~2.1 GB |
-| Avg response time on 8 GB RAM | ~4 seconds |
-| Languages supported | English · Hindi · Marathi |
-| Curriculum covered | Class 6–12 (CBSE/State board) |
-| Test coverage | 47+ pytest assertions |
-| Solo build time | 19 days |
+**Stack:** `React` · `Tailwind CSS` · `FastAPI` · `Celery` + `Redis` · `scikit-learn` · `XGBoost` · `LightGBM` · `SHAP` · `Optuna` · `PostgreSQL` · `Docker`
 
-**Stack:** `Gemma 3n` · `Ollama` · `Streamlit` · `Whisper.cpp` · `pyttsx3` · `SQLite` · `pytest`  
-**Context:** Built for the Kaggle Gemma 3n Impact Challenge
+**Status:** 🔧 In active development. Architecture, the ~22-paper literature review, and the full technical spec are done; the vertical slice (upload → diagnostics → training → prediction) is currently being built.
 
-🔗 [View Repo](https://github.com/Mangesh19-parate/shikshaAI-hackathon-project) · [**Live Demo ↗**](https://shiksha-ai-hackathon-project.vercel.app)
+🔗 [View Repo](https://github.com/Mangesh19-parate/ML-STUDIO)
+
+---
+
+### HousingIQ — Real-Estate Price Prediction & Insights Platform
+
+> *Buyers, sellers, brokers, and analysts in the Indian residential market have no single, explainable tool to price a property or read the market. I'm building one.*
+
+**The problem:** No unified, data-driven way to get a fair, explainable price estimate for a property or to visually understand market patterns (by locality, city, size, amenities) across Indian metros.
+
+**My solution:** An ML pipeline + web app trained on real residential listing data from four major Indian cities, with a FastAPI model-serving layer and a Flask-based insights dashboard.
+
+```
+What it covers
+├── ~182K residential listings across Gurgaon, Hyderabad, Kolkata, Mumbai
+├── Facet-level breakdowns: bedrooms, bathrooms, furnishing, amenities,
+│   floor number, facing direction, ownership type, and more
+├── Data profiling + cleaning pipeline (ydata-profiling, pandas)
+├── Price prediction models — scikit-learn / XGBoost / LightGBM + SHAP
+├── FastAPI serving layer, Flask dashboard for market insights
+└── Parquet-based caching for fast repeated reads
+```
+
+**Stack:** `Python` · `Pandas` · `scikit-learn` · `XGBoost` · `LightGBM` · `SHAP` · `FastAPI` · `Flask` · `PostgreSQL` · `pytest`
+
+**Status:** 🔧 In active development. Data pipeline and API/app scaffolding are in place; no live demo yet.
+
+🔗 [View Repo](https://github.com/Mangesh19-parate/Housing-IQ-Real-Estate-Price-Prediction-Insights-Platform)
 
 ---
 
 ### Startup Funding Intelligence Dashboard
 
-> *I couldn't find a single clean visualisation of Indian VC capital flows from 2018–2024 — so I built one.*
+> *I couldn't find a single clean visualisation of Indian VC capital flows from 2018–2024, so I built one.*
 
 VC analysts and ecosystem researchers use this to understand where Indian startup capital moves, who the power investors are, and how funding stage trends have shifted over time.
 
@@ -72,30 +93,6 @@ VC analysts and ecosystem researchers use this to understand where Indian startu
 
 ---
 
-## Currently building
-
-| # | What | Why it matters | Status |
-|---|------|----------------|--------|
-| 1 | FastAPI backend for PathShala | Replace Streamlit with a proper REST API — real production architecture | 🔧 Active |
-| 2 | Production RAG system over Indian legal PDFs | LangChain + Qdrant + hybrid retrieval — my next flagship | 📐 Planning |
-| 3 | MLflow experiment tracking on existing projects | Model versioning + drift monitoring on PathShala | 📚 Learning |
-| 4 | Docker containerisation of all projects | Every project runs with `docker compose up` | 📚 Learning |
-
----
-
-## Open source contributions
-
-> Contributing to production codebases used by real engineering teams.
-
-| Project | What I contributed | Status |
-|---------|--------------------|--------|
-| 🟡 [Evidently AI](https://github.com/evidentlyai/evidently) | Looking for first issue — drift detector edge cases | In progress |
-| 🟡 [Deepchecks](https://github.com/deepchecks/deepchecks) | Reviewing test suite for new check contributions | In progress |
-
-*This section updates with every merged PR.*
-
----
-
 ## Skills — only what I have repos to prove
 
 **Languages**  
@@ -104,27 +101,24 @@ VC analysts and ecosystem researchers use this to understand where Indian startu
 
 **ML / Data**  
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white)
+![XGBoost](https://img.shields.io/badge/XGBoost-EB0028?style=flat&logo=xgboost&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat&logo=numpy&logoColor=white)
-
-**LLMs / AI**  
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat&logo=ollama&logoColor=white)
-![Gemma](https://img.shields.io/badge/Gemma%203n-4285F4?style=flat&logo=google&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
+![SHAP](https://img.shields.io/badge/SHAP-8A2BE2?style=flat)
 
 **Apps & Visualisation**  
 ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
 ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat&logo=plotly&logoColor=white)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat&logo=python&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
 
 **Infra / Tools**  
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=flat&logo=fastapi)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![MLflow](https://img.shields.io/badge/MLflow-0194E2?style=flat&logo=mlflow&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05033?style=flat&logo=git&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
 ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat&logo=pytest&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
 
 ---
 
@@ -151,7 +145,7 @@ VC analysts and ecosystem researchers use this to understand where Indian startu
 
 ## Let's build something together
 
-I'm actively looking for **Data Science / ML Engineer internships** where I can work on real problems — Indian languages, edtech, fintech, or AI infrastructure.
+I'm actively looking for **Data Science / ML Engineer internships** where I can work on real problems: Indian languages, edtech, fintech, or AI infrastructure.
 
 If you're building something interesting or want to collaborate on an open-source project, reach out directly:
 
@@ -162,6 +156,7 @@ If you're building something interesting or want to collaborate on an open-sourc
 
 <div align="center">
 
+*Explainable, production-minded ML, one traceable decision at a time.*
 *Building AI for the 90% of India that doesn't have a stable internet connection.*
 
 ![Profile Views](https://komarev.com/ghpvc/?username=Mangesh19-parate&color=2D9CDB&style=flat&label=Profile+Views)
@@ -169,3 +164,6 @@ If you're building something interesting or want to collaborate on an open-sourc
 </div>
 
 ![footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=100&section=footer)
+
+
+
