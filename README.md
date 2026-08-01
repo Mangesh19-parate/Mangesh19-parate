@@ -4,7 +4,7 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=800&color=2D9CDB&center=true&vCenter=true&width=680&lines=ML+Engineer+%7C+Data+Scientist;Rule-based+AutoML+%7C+Real-Estate+ML+%7C+VC+Analytics;Python+%7C+FastAPI+%7C+scikit-learn+%7C+XGBoost+%7C+SHAP;Open+to+DS+%2F+ML+Internships+%F0%9F%9A%80)](https://git.io/typing-svg)
 
-**B.Tech IT · Graduating 2027 · 8.49 CGPA · Nagpur, India**
+**B.Tech IT · Graduating 2027 · 8.32 CGPA · Nagpur, India**
 
 I design the full pipeline: problem statement, data, modeling, and deployment.
 
